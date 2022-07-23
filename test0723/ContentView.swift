@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowing = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Alert 띄우기"){
+            isShowing = true
+        }
+        .alert("메시지", isPresented: $isShowing){
+            Button("OK", role: .cancel) {}
+        }
     }
 }
 
