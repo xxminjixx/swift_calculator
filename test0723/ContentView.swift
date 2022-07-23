@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  test1
+//  test0723
 //
 //  Created by 최민지 on 2022/07/23.
 //
