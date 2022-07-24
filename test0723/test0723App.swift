@@ -11,7 +11,7 @@ import SwiftUI
 struct test0723App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(GlobalEnvironment())
         }
     }
 }
