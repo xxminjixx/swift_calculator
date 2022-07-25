@@ -108,7 +108,7 @@ struct CalculatorButtonView : View{
     
     var button: CalculatorButton
     
-    @EnvironmentObject var env : GlobalEnvironment
+    @EnvironmentObject var env : GlobalEnvironment 
     
     var body: some View{
         Button(action: {
